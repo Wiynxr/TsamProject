@@ -3,8 +3,6 @@ const mongoose = require("mongoose");
 
 const app = express();
 
-app.use(express.json());
-
 mongoose
   .connect(
     "mongodb+srv://fringle:12345@cluster0.wgisrd8.mongodb.net/tsamProject",
