@@ -14,6 +14,6 @@ mongoose
   .then(() => console.log("Успешно соединились с сервером MongoDB"))
   .catch(() => console.log("Ошибка при соединении с сервером MongoDB"));
 
-app.listen(2999), () => {
+app.listen(2999, () => {
   console.log(`Для подключения перейдите на хост http://localhost:${2999}`);
-};
+})
